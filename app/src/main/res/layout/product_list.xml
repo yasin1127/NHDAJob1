@@ -27,7 +27,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:layout_marginTop="8dp"
             android:text="Name"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -41,13 +40,32 @@
             android:layout_height="wrap_content"
             android:text="$"
             android:layout_marginHorizontal="5dp"
-            android:layout_marginTop="30dp"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:gravity="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/productImage"
             app:layout_constraintTop_toBottomOf="@+id/nameTxt" />
+
+        <TextView
+            android:id="@+id/idTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:text="1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/productImage"
+            app:layout_constraintTop_toBottomOf="@+id/priceTxt" />
+
+        <TextView
+            android:id="@+id/descriptionTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/productImage"
+            app:layout_constraintTop_toBottomOf="@+id/idTxt" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
